@@ -15,6 +15,7 @@ export default function Home() {
 			<h1>Home Page</h1>
 			<SimpleForm label='Your Name' placeholder='Enter your name' />
 			<ConditionalDisplay isVisible={true} />
+			<ListWithObjects items={items}/>
 		</div>
 	);
 }
