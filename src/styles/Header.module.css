@@ -1,0 +1,25 @@
+.header {
+    background-color: #0070f3;
+    padding: 15px;
+  }
+  
+  .navList {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .navList li {
+    font-size: 18px;
+  }
+  
+  .navList li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navList li a:hover {
+    text-decoration: underline;
+  }
+  
